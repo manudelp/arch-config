@@ -1,0 +1,28 @@
+2025-03-30 19:32:38.203 [info] Started local extension host with pid 30357.
+2025-03-30 19:32:40.887 [info] [perf] Render performance baseline is 24ms
+2025-03-30 19:32:41.833 [info] Settings Sync: Token updated for the account manudelp
+2025-03-30 19:32:41.833 [info] Settings Sync: Account status changed from uninitialized to available
+2025-03-30 19:32:41.862 [error] Illegal value for lineNumber: Error: Illegal value for lineNumber
+    at Cf.getLineMaxColumn (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:253:112)
+    at vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2001:13251
+    at HI._computeFn (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:31:24260)
+    at HI.q (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:31:25793)
+    at HI.get (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:31:25545)
+    at HI.reportChanges (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:31:15998)
+    at rse.endUpdate (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:31:22892)
+    at HI.endUpdate (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:31:26591)
+    at _5.finish (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:31:17858)
+    at Hi (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:31:17251)
+2025-03-30 19:32:42.666 [error] [Extension Host] (node:30357) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2025-03-30 19:33:25.808 [error] Illegal value for lineNumber: Error: Illegal value for lineNumber
+    at Cf.getLineMaxColumn (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:253:112)
+    at vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2001:13251
+    at HI._computeFn (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:31:24260)
+    at HI.q (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:31:25793)
+    at HI.get (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:31:25545)
+    at HI.reportChanges (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:31:15998)
+    at rse.endUpdate (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:31:22892)
+    at HI.endUpdate (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:31:26591)
+    at _5.finish (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:31:17858)
+    at Hi (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:31:17251)

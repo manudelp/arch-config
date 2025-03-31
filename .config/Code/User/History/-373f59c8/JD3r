@@ -1,0 +1,24 @@
+# Assign workspace names
+set $workspace1 "1"
+set $workspace2 "2"
+set $workspace3 "3"
+
+# Define keybindings for switching workspaces
+bindsym $mod+1 workspace $workspace1
+bindsym $mod+2 workspace $workspace2
+bindsym $mod+3 workspace $workspace3
+
+# Enable swipe to switch workspaces (this works with touchpad and touchscreen)
+input * {
+    touchpad.tap 1
+    touchpad.swipe 3
+}
+
+# Enable 3-finger swipe to switch workspaces
+input "type:touchpad" {
+    tap enabled
+    natural_scroll enabled
+    dwt enabled
+    gestures swipe up exec swaymsg workspace next
+    gestures swipe down exec swaymsg workspace prev
+}

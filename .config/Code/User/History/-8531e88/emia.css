@@ -1,0 +1,31 @@
+* {
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica,
+    Arial, sans-serif;
+  transition: none;
+  margin: 0;
+  padding: 0;
+  border-radius: 0;
+  color: white;
+}
+
+#waybar {
+  background: rgba(1, 1, 1, 0.3);
+}
+
+#workspaces button {
+  border: none;
+  padding: 10px;
+  border-bottom: 2px solid transparent;
+}
+
+#workspaces button:hover {
+  background: none;
+  border: none;
+  border-bottom: 2px solid white;
+}
+
+#workspaces button:active {
+  background: rgba(255, 255, 255, 0.3);
+  border-top: none;
+  border-bottom: 2px solid white;
+}

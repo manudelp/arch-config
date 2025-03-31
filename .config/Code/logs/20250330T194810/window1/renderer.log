@@ -1,0 +1,6 @@
+2025-03-30 19:48:11.729 [info] Started local extension host with pid 32981.
+2025-03-30 19:48:13.526 [info] Settings Sync: Token updated for the account manudelp
+2025-03-30 19:48:13.623 [info] Settings Sync: Account status changed from uninitialized to available
+2025-03-30 19:48:14.466 [info] [perf] Render performance baseline is 42ms
+2025-03-30 19:48:16.567 [error] [Extension Host] (node:32981) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)

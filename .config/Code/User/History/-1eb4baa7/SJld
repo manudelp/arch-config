@@ -1,0 +1,20 @@
+# ~/.config/wofi/config
+[wofi]
+# Dimensiones de la ventana de wofi
+width=30
+height=30
+# Estilo de la barra
+border_width=2
+border_color=#4e4e4e
+# Fondo
+background=#2e2e2e
+# Color del texto
+foreground=#ffffff
+# Altura de las filas
+line_height=30
+# Acción al seleccionar
+selected_fg_color=#ff6699
+selected_bg_color=#333333
+# Iconos
+enable_icons=true
+icon_size=16

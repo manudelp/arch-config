@@ -1,0 +1,45 @@
+2025-03-30 19:59:07.425 [info] Using the Electron fetcher.
+2025-03-30 19:59:07.425 [info] Initializing Git extension service.
+2025-03-30 19:59:07.425 [info] Successfully activated the vscode.git extension.
+2025-03-30 19:59:07.425 [info] Enablement state of the vscode.git extension: true.
+2025-03-30 19:59:07.425 [info] Successfully registered Git commit message provider.
+2025-03-30 19:59:09.326 [info] Logged in as manudelp
+2025-03-30 19:59:10.072 [info] Got Copilot token for manudelp
+2025-03-30 19:59:10.139 [info] copilot token chat_enabled: true, sku: free_educational
+2025-03-30 19:59:10.139 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-03-30 19:59:10.147 [info] Registering default platform agent...
+2025-03-30 19:59:10.653 [info] Fetched model metadata in 564ms ed9e6203-32ff-471a-bca0-c74e5aedfa9e
+2025-03-30 19:59:10.821 [info] activationBlocker from 'languageModelAccess' took for 3246ms
+2025-03-30 20:01:34.825 [info] message 0 returned. finish reason: [stop]
+2025-03-30 20:01:34.827 [info] request done: requestId: [db440e6a-08c4-414c-834a-74686c1e9d1a] model deployment ID: []
+2025-03-30 20:01:35.737 [info] message 0 returned. finish reason: [stop]
+2025-03-30 20:01:35.738 [info] request done: requestId: [07811f04-d3f1-41a3-aa81-8ad7afbc7142] model deployment ID: []
+2025-03-30 20:08:54.613 [info] message 0 returned. finish reason: [stop]
+2025-03-30 20:08:54.614 [info] request done: requestId: [7afb4f96-e5d8-4647-9839-2cf712b5c243] model deployment ID: []
+2025-03-30 20:08:56.640 [info] message 0 returned. finish reason: [stop]
+2025-03-30 20:08:56.641 [info] request done: requestId: [c36ca86b-45f1-4173-a2b9-ae4d58b914f7] model deployment ID: []
+2025-03-30 20:09:11.124 [info] message 0 returned. finish reason: [stop]
+2025-03-30 20:09:11.125 [info] request done: requestId: [c45fed64-ea77-4781-b5a6-ee84a4081d7c] model deployment ID: []
+2025-03-30 20:09:11.323 [info] Fetched model metadata in 197ms ae75fb95-909e-403b-bafb-b17b307cf91e
+2025-03-30 20:09:13.018 [info] message 0 returned. finish reason: [stop]
+2025-03-30 20:09:13.019 [info] request done: requestId: [ac455a6d-1479-4ef0-9620-a61b047c9a85] model deployment ID: []
+2025-03-30 20:11:46.364 [info] message 0 returned. finish reason: [stop]
+2025-03-30 20:11:46.365 [info] request done: requestId: [1a9af54f-ac96-4875-b445-78a555fd41a8] model deployment ID: []
+2025-03-30 20:11:47.249 [info] message 0 returned. finish reason: [stop]
+2025-03-30 20:11:47.250 [info] request done: requestId: [facb2909-4c47-4268-b494-714cb0e0071c] model deployment ID: []
+2025-03-30 20:12:09.607 [info] message 0 returned. finish reason: [stop]
+2025-03-30 20:12:09.608 [info] request done: requestId: [6ec9ffbd-80cd-49f0-b972-e289af0424fd] model deployment ID: []
+2025-03-30 20:12:10.188 [info] message 0 returned. finish reason: [stop]
+2025-03-30 20:12:10.189 [info] request done: requestId: [108dc172-9100-4567-9003-e39811e339d1] model deployment ID: []
+2025-03-30 20:12:50.120 [info] message 0 returned. finish reason: [stop]
+2025-03-30 20:12:50.121 [info] request done: requestId: [2c193a79-284c-48d0-9f08-a68b6badeeb6] model deployment ID: []
+2025-03-30 20:12:51.200 [info] message 0 returned. finish reason: [stop]
+2025-03-30 20:12:51.201 [info] request done: requestId: [7df88772-9c86-44e9-9c40-0053384b341b] model deployment ID: []
+2025-03-30 20:17:00.002 [info] message 0 returned. finish reason: [stop]
+2025-03-30 20:17:00.003 [info] request done: requestId: [49802b0e-bbcf-4c09-9d6d-62b7ef6b4300] model deployment ID: []
+2025-03-30 20:17:00.972 [info] message 0 returned. finish reason: [stop]
+2025-03-30 20:17:00.972 [info] request done: requestId: [7cb2b9c8-77bf-41eb-b02c-79e6834250d7] model deployment ID: []
+2025-03-30 20:18:30.852 [info] message 0 returned. finish reason: [stop]
+2025-03-30 20:18:30.853 [info] request done: requestId: [64389aee-332f-4cb2-9d6c-35b9833a4260] model deployment ID: []
+2025-03-30 20:18:33.416 [info] message 0 returned. finish reason: [stop]
+2025-03-30 20:18:33.417 [info] request done: requestId: [6c16ed20-072c-4538-966e-8f53e6fdbb02] model deployment ID: []

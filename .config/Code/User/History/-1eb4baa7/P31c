@@ -1,0 +1,14 @@
+[wofi]
+width=30
+height=30
+background=#282a36
+foreground=#f8f8f2
+border_width=2
+border_color=#50fa7b
+line_height=30
+
+# Tema Drácula
+selected_fg_color=#f8f8f2
+selected_bg_color=#50fa7b
+enable_icons=true
+icon_size=16

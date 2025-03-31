@@ -1,0 +1,24 @@
+2025-03-30 21:06:46.050 [info] [main] Log level: Info
+2025-03-30 21:06:46.051 [info] [main] Validating found git in: "git"
+2025-03-30 21:06:46.051 [info] [main] Using git "2.49.0" from "git"
+2025-03-30 21:06:46.051 [info] [Model][doInitialScan] Initial repository scan started
+2025-03-30 21:06:46.054 [info] > git rev-parse --show-toplevel [4ms]
+2025-03-30 21:06:46.066 [info] > git rev-parse --git-dir --git-common-dir [3ms]
+2025-03-30 21:06:46.088 [info] [Model][openRepository] Opened repository: /home/manu/Repos/arch-config
+2025-03-30 21:06:46.096 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-03-30 21:06:48.132 [info] > git fetch [2045ms]
+2025-03-30 21:06:48.925 [info] > git config --get commit.template [794ms]
+2025-03-30 21:06:49.623 [info] > git config --get commit.template [720ms]
+2025-03-30 21:06:49.824 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [59ms]
+2025-03-30 21:06:49.824 [warning] [Git][getBranch] No such branch: main
+2025-03-30 21:06:49.861 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [24ms]
+2025-03-30 21:06:49.861 [warning] [Git][getBranch] No such branch: main
+2025-03-30 21:06:49.861 [error] [GitHistoryProvider][resolveHEADMergeBase] Failed to resolve merge base for main: Error: No such branch: main.
+2025-03-30 21:06:49.862 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [42ms]
+2025-03-30 21:06:49.862 [warning] [Git][getBranch] No such branch: main
+2025-03-30 21:06:49.888 [info] > git config --get commit.template [32ms]
+2025-03-30 21:06:50.068 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [64ms]
+2025-03-30 21:06:50.068 [warning] [Git][getBranch] No such branch: main
+2025-03-30 21:06:50.113 [info] > git status -z -uall [32ms]
+2025-03-30 21:06:50.114 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [21ms]
+2025-03-30 21:07:00.781 [info] > git check-ignore -v -z --stdin [1ms]

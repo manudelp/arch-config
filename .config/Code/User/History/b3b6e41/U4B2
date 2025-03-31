@@ -1,0 +1,42 @@
+[global]
+# Font and basic geometry
+font = "SF Pro Display 12"
+geometry = "300x60-10+10"
+notification_height = 60
+notification_width = 300
+line_height = 30
+timeout = 5
+
+# Transparency (optional)
+transparency = 10
+
+# Icon size (optional)
+icon_size = 40
+
+# Sorting order
+sort = ascending
+
+# Always show notifications
+always_show = true
+
+# Fade in/out effect duration (optional)
+fade_in = 0.3
+fade_out = 0.3
+
+# Number of notifications to keep (optional)
+max_history = 5
+
+# Rounded corners (optional, if supported by your compositor)
+corner_radius = 10
+
+[urgency_low]
+background = "#f5f5f7"
+foreground = "#1c1c1e"
+
+[urgency_normal]
+background = "#ffffff"
+foreground = "#1c1c1e"
+
+[urgency_critical]
+background = "#ff3b30"
+foreground = "#ffffff"

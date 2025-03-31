@@ -1,0 +1,39 @@
+2025-03-30 18:44:00.673 [info] Started local extension host with pid 12131.
+2025-03-30 18:44:02.119 [info] Settings Sync: Token updated for the account manudelp
+2025-03-30 18:44:02.283 [info] Settings Sync: Account status changed from uninitialized to available
+2025-03-30 18:44:03.378 [info] [perf] Render performance baseline is 29ms
+2025-03-30 18:44:05.050 [error] [Extension Host] (node:12131) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2025-03-30 19:19:54.772 [error] Illegal value for lineNumber: Error: Illegal value for lineNumber
+    at Cf.getLineMaxColumn (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:253:112)
+    at vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2001:13251
+    at HI._computeFn (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:31:24260)
+    at HI.q (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:31:25793)
+    at HI.get (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:31:25545)
+    at HI.reportChanges (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:31:15998)
+    at rse.endUpdate (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:31:22892)
+    at HI.endUpdate (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:31:26591)
+    at _5.finish (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:31:17858)
+    at Hi (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:31:17251)
+2025-03-30 19:19:57.777 [error] Illegal value for lineNumber: Error: Illegal value for lineNumber
+    at Cf.getLineMaxColumn (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:253:112)
+    at vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2001:13251
+    at HI._computeFn (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:31:24260)
+    at HI.q (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:31:25793)
+    at HI.get (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:31:25545)
+    at HI.reportChanges (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:31:15998)
+    at rse.endUpdate (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:31:22892)
+    at HI.endUpdate (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:31:26591)
+    at _5.finish (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:31:17858)
+    at Hi (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:31:17251)
+2025-03-30 19:20:02.075 [error] Illegal value for lineNumber: Error: Illegal value for lineNumber
+    at Cf.getLineMaxColumn (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:253:112)
+    at vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2001:13251
+    at HI._computeFn (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:31:24260)
+    at HI.q (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:31:25793)
+    at HI.get (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:31:25545)
+    at HI.reportChanges (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:31:15998)
+    at rse.endUpdate (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:31:22892)
+    at HI.endUpdate (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:31:26591)
+    at _5.finish (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:31:17858)
+    at Hi (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:31:17251)

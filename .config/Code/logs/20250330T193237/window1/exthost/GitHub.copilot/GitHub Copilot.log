@@ -1,0 +1,368 @@
+2025-03-30 19:32:44.903 [warning] [certificates] Failed to parse certificate # ACCVRAIZ1
+ Error: error:0900006e:PEM routines:OPENSSL_internal:NO_START_LINE
+    at new X509Certificate (node:internal/crypto/x509:119:21)
+    at /home/manu/.vscode/extensions/github.copilot-1.293.0/lib/src/network/certificateReaders.ts:79:36
+    at Array.filter (<anonymous>)
+    at Rae.removeExpiredCertificates (/home/manu/.vscode/extensions/github.copilot-1.293.0/lib/src/network/certificateReaders.ts:77:32)
+    at Rae.getAllRootCAs (/home/manu/.vscode/extensions/github.copilot-1.293.0/lib/src/network/certificateReaders.ts:68:38)
+    at fz.createSecureContext (/home/manu/.vscode/extensions/github.copilot-1.293.0/lib/src/network/certificates.ts:47:23) {
+  opensslErrorStack: [
+    'error:0c00006d:ASN.1 encoding routines:OPENSSL_internal:DECODE_ERROR'
+  ],
+  library: 'PEM routines',
+  function: 'OPENSSL_internal',
+  reason: 'NO_START_LINE',
+  code: 'ERR_OSSL_PEM_NO_START_LINE',
+  vslsStack: [
+    CallSite {},
+    CallSite {},
+    CallSite {},
+    CallSite {},
+    CallSite {},
+    CallSite {}
+  ]
+}
+2025-03-30 19:32:44.903 [warning] [certificates] Failed to parse certificate # ACCVRAIZ1
+ Error: error:0900006e:PEM routines:OPENSSL_internal:NO_START_LINE
+    at new X509Certificate (node:internal/crypto/x509:119:21)
+    at /home/manu/.vscode/extensions/github.copilot-1.293.0/lib/src/network/certificateReaders.ts:79:36
+    at Array.filter (<anonymous>)
+    at Rae.removeExpiredCertificates (/home/manu/.vscode/extensions/github.copilot-1.293.0/lib/src/network/certificateReaders.ts:77:32)
+    at Rae.getAllRootCAs (/home/manu/.vscode/extensions/github.copilot-1.293.0/lib/src/network/certificateReaders.ts:68:38)
+    at fz.createSecureContext (/home/manu/.vscode/extensions/github.copilot-1.293.0/lib/src/network/certificates.ts:47:23) {
+  opensslErrorStack: [
+    'error:0c00006d:ASN.1 encoding routines:OPENSSL_internal:DECODE_ERROR'
+  ],
+  library: 'PEM routines',
+  function: 'OPENSSL_internal',
+  reason: 'NO_START_LINE',
+  code: 'ERR_OSSL_PEM_NO_START_LINE',
+  vslsStack: [
+    CallSite {},
+    CallSite {},
+    CallSite {},
+    CallSite {},
+    CallSite {},
+    CallSite {}
+  ]
+}
+2025-03-30 19:32:44.903 [info] [certificates] Removed 2 expired certificates
+2025-03-30 19:32:45.525 [info] [fetcher] Using Helix fetcher.
+2025-03-30 19:32:45.525 [info] [code-referencing] Public code references are enabled.
+2025-03-30 19:32:46.212 [info] [fetcher] Using Helix fetcher.
+2025-03-30 19:33:02.911 [info] [fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions] took 972.548988999999 ms
+2025-03-30 19:33:02.915 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-03-30 19:33:02.918 [info] [streamChoices] request done: headerRequestId: [b667467d-c8ac-4f7f-beaf-dbc3e1f8226d] model deployment ID: []
+2025-03-30 19:33:03.903 [info] [fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions] took 378.05225000000064 ms
+2025-03-30 19:33:03.907 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-03-30 19:33:03.908 [info] [streamChoices] request done: headerRequestId: [32e24be0-50f9-4740-84c3-6a592a83f316] model deployment ID: []
+2025-03-30 19:33:04.825 [info] [fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions] took 293.67479599999933 ms
+2025-03-30 19:33:04.831 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-03-30 19:33:04.832 [info] [streamChoices] request done: headerRequestId: [d7dafaee-4078-4d5a-bde3-1a1d8b161dde] model deployment ID: []
+2025-03-30 19:33:26.167 [info] [fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions] took 293.99573000000237 ms
+2025-03-30 19:33:26.171 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-03-30 19:33:26.172 [info] [streamChoices] request done: headerRequestId: [ace7a36d-8d9f-4e1a-ae0d-4a4f60260041] model deployment ID: []
+2025-03-30 19:33:32.819 [info] [fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions] took 4550.033786 ms
+2025-03-30 19:33:33.809 [info] [streamChoices] solution 4 returned. finish reason: [stop]
+2025-03-30 19:33:33.811 [info] [solutions] Open Copilot completion: [
+background_color  #000000
+foreground_color  #FFFFFF
+cursor_color      #FF00FF
+
+# Color palette
+color0   #000000
+color1   #FF5555
+color2   #50FA7B
+color3   #F1FA8C
+color4   #BD93F9
+color5   #FF79C6
+color6   #8BE9FD
+color7   #BFBFBF
+color8   #6272A4
+color9   #FF6E6E
+color10  #69FF94
+color11  #FFFFA5
+color12  #D6ACFF
+color13  #FF92DF
+color14  #A4FFFF
+color15  #FFFFFF
+
+# Window title bar colors
+active_border_color   #FF79C6
+inactive_border_color #6272A4
+
+# Font settings for tabs and text input fields.
+tab_font_family       Hack
+tab_font_size         12.0
+
+# Tab bar colors.
+tab_bar_background_color      #282A36
+tab_bar_active_tab_background_color     #44475A
+
+# Other settings...]
+2025-03-30 19:33:34.002 [info] [streamChoices] solution 2 returned. finish reason: [stop]
+2025-03-30 19:33:34.003 [info] [solutions] Open Copilot completion: [
+background_color 0x000000
+foreground_color 0xFFFFFF
+
+# Cursor settings
+cursor_shape     Block
+cursor_blink     true
+cursor_color     0xFF0000
+
+# Tab bar settings
+tab_bar_background_color 0x000000
+tab_bar_foreground_color 0xFFFFFF
+tab_bar_active_tab_color 0xFF0000
+
+# Window settings
+window_background_color 0x000000
+window_border_color     0xFFFFFF
+
+# Font size
+font_size       12.0]
+2025-03-30 19:33:34.208 [info] [streamChoices] solution 6 returned. finish reason: [stop]
+2025-03-30 19:33:34.209 [info] [solutions] Open Copilot completion: [
+background_color  #0d1117
+foreground_color  #c9d1d9
+
+# Colors
+color0   #0d1117
+color1   #f47067
+color2   #a5d6ff
+color3   #f9c99e
+color4   #a5d6ff
+color5   #f47067
+color6   #a5d6ff
+color7   #c9d1d9
+color8   #4b5563
+color9   #f47067
+color10  #a5d6ff
+color11  #f9c99e
+color12  #a5d6ff
+color13  #f47067]
+2025-03-30 19:33:34.218 [info] [streamChoices] solution 5 returned. finish reason: [stop]
+2025-03-30 19:33:34.219 [info] [solutions] Open Copilot completion: [
+background_color  #282c34
+foreground_color  #abb2bf
+cursor_color      #528bff
+
+# cursor_shape       block
+# cursor_blink       true
+
+# font_size         12.0
+# line_height       1.0
+
+# selection_color    #3e4451
+# selection_text_color #abb2bf
+
+# colors
+color_0   #282c34
+color_1   #e06c75
+color_2   #98c379
+color_3   #d19a66
+color_4   #61afef
+color_5   #c678dd
+color_6   #56b6c2
+color_7   #abb2bf
+color_8   #5c6370]
+2025-03-30 19:33:34.497 [info] [streamChoices] solution 1 returned. finish reason: [stop]
+2025-03-30 19:33:34.498 [info] [solutions] Open Copilot completion: [
+background_color #282c34
+foreground_color #abb2bf
+cursor_color     #528bff
+selection_color   #3e4451
+
+color0   #282c34
+color1   #e06c75
+color2   #98c379
+color3   #e5c07b
+color4   #61afef
+color5   #c678dd
+color6   #56b6c2
+color7   #abb2bf
+color8   #5c6370
+color9   #e06c75
+color10  #98c379
+color11  #e5c07b
+color12  #61afef
+color13  #c678dd
+color14  #56b6c2
+color15  #ffffff
+
+# Define the color palette (optional)
+# palette = ["#282c34", "#e06c75", "#98c379", "#e5c07b", "#61afef", "#c678dd", "#56b6c2", "#abb2bf"]]
+2025-03-30 19:33:34.701 [info] [streamChoices] solution 7 returned. finish reason: [stop]
+2025-03-30 19:33:34.703 [info] [solutions] Open Copilot completion: [
+foreground_color #c5c8c6
+background_color #1d1f21
+cursor_color     #c5c8c6
+
+color0   #282a2e
+color1   #a54242
+color2   #8c9440
+color3   #de935f
+color4   #5f819d
+color5   #85678f
+color6   #5e8d87
+color7   #707880
+color8   #373b41
+color9   #cc6666
+color10  #b5bd68
+color11  #f0c674
+color12  #81a2be
+color13  #b294bb
+color14  #8abeb7
+color15  #c5c8c6
+
+# Set the font size to 12px.
+font_size 12px
+
+# Set the cursor shape to a block.
+cursor_shape block
+
+# Set the cursor blinking to true.
+cursor_blinking true
+
+# Set the scrollback lines to 10000.
+scrollback_lines 10000
+
+# Set the shell to zsh.
+shell /bin/zsh
+
+# Enable mouse support.
+mouse_support true
+
+# Enable ligatures.
+ligatures true
+
+# Set the window title to "Kitty Terminal".
+window_title "Kitty Terminal"]
+2025-03-30 19:33:35.135 [info] [streamChoices] solution 8 returned. finish reason: [stop]
+2025-03-30 19:33:35.136 [info] [solutions] Open Copilot completion: [
+
+background_color  #2E3440
+foreground_color  #D8DEE9
+
+color0   #3B4252
+color1   #BF616A
+color2   #A3BE8C
+color3   #EBCB8B
+color4   #81A1C1
+color5   #B48EAD
+color6   #88C0D0
+color7   #E5E9F0
+color8   #4C566A
+color9   #BF616A
+color10  #A3BE8C
+color11  #EBCB8B]
+2025-03-30 19:33:35.412 [info] [streamChoices] solution 9 returned. finish reason: [stop]
+2025-03-30 19:33:35.413 [info] [solutions] Open Copilot completion: [
+foreground_color #C5C8C6
+background_color #1D1F21
+
+# Colors
+color0   #282A2E
+color1   #CC342B
+color2   #198844
+color3   #FBA922
+color4   #3971ED
+color5   #A36AC7
+color6   #3971ED
+color7   #C5C8C6
+color8   #969896
+color9   #CC342B
+color10  #198844
+color11  #FBA922
+color12  #3971ED
+color13  #A36AC7
+color14  #3971ED
+color15  #FFFFFF
+
+# Cursor colors
+cursor_color     #C5C8C6
+
+# Window padding
+window_padding_width 10px
+
+# Font settings for different styles
+font_size        12.0px
+bold_font_size   12.0px
+italic_font_size 12.0px
+bold_italic_font_size 12.0px
+
+# Other settings can be added here...]
+2025-03-30 19:33:35.624 [info] [streamChoices] solution 3 returned. finish reason: [stop]
+2025-03-30 19:33:35.625 [info] [solutions] Open Copilot completion: [
+background_image  /home/mohit/Pictures/Wallpapers/kitty.png
+background_position center
+background_tile    no
+foreground        #ffffff
+cursor            #ffffff
+
+# Colors
+color0           #000000
+color1           #ff5555
+color2           #50fa7b
+color3           #f1fa8c
+color4           #bd93f9
+color5           #ff79c6
+color6           #8be9fd
+color7           #f8f8f2
+color8           #6272a4
+color9           #ff5555
+color10          #50fa7b
+color11          #f1fa8c
+color12          #bd93f9
+color13          #ff79c6
+color14          #8be9fd]
+2025-03-30 19:33:36.239 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-03-30 19:33:36.240 [info] [solutions] Open Copilot completion: [
+background_color  #282a36
+foreground_color  #f8f8f2
+cursor_color      #ff79c6
+
+color0   #282a36
+color1   #ff5555
+color2   #50fa7b
+color3   #f1fa8c
+color4   #bd93f9
+color5   #ff79c6
+color6   #8be9fd
+color7   #f8f8f2
+color8   #6272a4
+color9   #ff6e6e
+color10  #69ff94
+color11  #ffffa5
+color12  #d6acff
+color13  #ff92df
+color14  #a4ffff
+color15  #ffffff
+
+font_size        12.0
+enable_tab_bar   false
+
+# Enable ligatures in the terminal.
+enable_ligatures true
+
+# Enable font features.
+font_features    "calt,clig,dlig,liga"]
+2025-03-30 19:33:36.241 [info] [streamChoices] request done: headerRequestId: [bf25002c-32d0-4135-bd12-09d232a6214c] model deployment ID: []
+2025-03-30 19:33:40.513 [info] [fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions] took 312.63335599999846 ms
+2025-03-30 19:33:40.517 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-03-30 19:33:40.518 [info] [streamChoices] request done: headerRequestId: [38433e2b-16eb-47fc-a5d7-dcde597b267b] model deployment ID: []
+2025-03-30 19:38:15.221 [info] [fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions] took 1193.8031160000246 ms
+2025-03-30 19:38:15.223 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-03-30 19:38:15.226 [info] [streamChoices] request done: headerRequestId: [0f68040a-c3c5-4fe1-b20b-2dee91e1bc10] model deployment ID: []
+2025-03-30 19:38:25.086 [info] [fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions] took 344.95604900002945 ms
+2025-03-30 19:38:25.090 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-03-30 19:38:25.094 [info] [streamChoices] request done: headerRequestId: [4fefedb9-0f36-4d11-901d-c6040399c998] model deployment ID: []
+2025-03-30 19:38:30.521 [info] [fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions] took 284.4852110000211 ms
+2025-03-30 19:38:30.522 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-03-30 19:38:30.523 [info] [streamChoices] request done: headerRequestId: [eaabb66d-66cb-473f-a0fe-97a9d2655714] model deployment ID: []
+2025-03-30 19:38:43.744 [info] [fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions] took 282.2457889999496 ms
+2025-03-30 19:38:43.747 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-03-30 19:38:43.747 [info] [streamChoices] request done: headerRequestId: [05857bab-14d0-465c-91d1-5592f72c6acf] model deployment ID: []
+2025-03-30 19:38:44.303 [info] [fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions] took 283.48698899999727 ms
+2025-03-30 19:38:44.306 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-03-30 19:38:44.307 [info] [streamChoices] request done: headerRequestId: [d681c05e-4d6d-4691-b0df-f106d9894c10] model deployment ID: []

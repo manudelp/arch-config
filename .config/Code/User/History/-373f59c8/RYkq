@@ -1,0 +1,34 @@
+# Set mod key (Mod4 = Windows key, Mod1 = Alt)
+set $mod Mod4
+
+# Assign workspace names
+set $workspace1 "1"
+set $workspace2 "2"
+set $workspace3 "3"
+
+# Define keybindings for switching workspaces
+bindsym $mod+1 workspace $workspace1
+bindsym $mod+2 workspace $workspace2
+bindsym $mod+3 workspace $workspace3
+
+# Touchpad configuration
+input "type:touchpad" {
+    tap enabled
+    natural_scroll enabled
+    dwt enabled
+    scroll_factor 1.0
+    # Correct gesture syntax for Sway
+    scroll_method two_finger
+    click_method clickfinger
+    # Enable three finger swipe
+    middle_emulation enabled
+}
+
+# Set up libinput-gestures for workspace switching
+# Note: You need to install 'libinput-gestures' package first
+exec libinput-gestures-setup start
+
+# Alternatively, you can use swayidle for gesture handling
+exec swayidle -w \
+    timeout 300 'swaylock -f -c 000000' \
+    timeout 600 'swaymsg "output * power off"' resume 'swaymsg "output * power on"'

@@ -1,0 +1,12 @@
+2025-03-30 19:48:17.058 [info] Using the Electron fetcher.
+2025-03-30 19:48:17.058 [info] Initializing Git extension service.
+2025-03-30 19:48:17.058 [info] Successfully activated the vscode.git extension.
+2025-03-30 19:48:17.058 [info] Enablement state of the vscode.git extension: true.
+2025-03-30 19:48:17.058 [info] Successfully registered Git commit message provider.
+2025-03-30 19:48:18.904 [info] Logged in as manudelp
+2025-03-30 19:48:19.630 [info] Got Copilot token for manudelp
+2025-03-30 19:48:19.712 [info] copilot token chat_enabled: true, sku: free_educational
+2025-03-30 19:48:19.712 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-03-30 19:48:19.721 [info] Registering default platform agent...
+2025-03-30 19:48:20.237 [info] Fetched model metadata in 593ms 922514e3-419f-4316-a47c-8b79d3704b91
+2025-03-30 19:48:20.400 [info] activationBlocker from 'languageModelAccess' took for 2926ms

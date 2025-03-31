@@ -1,0 +1,42 @@
+[globals]
+# Font and basic geometry
+font = Sans 10
+geometry = "300x50-10+10"
+notification_height = 50
+notification_width = 300
+line_height = 25
+timeout = 5
+
+# Transparency (optional)
+# transparency = 20
+
+# Icon size (optional)
+icon_size = 40
+
+# Sorting order
+sort = ascending
+
+# Always show notifications
+always_show = true
+
+# Fade in/out effect duration (optional)
+fade_in = 0.5
+fade_out = 0.5
+
+# Number of notifications to keep (optional)
+max_history = 5
+
+[urgency_low]
+background = "#2e2e2e"
+foreground = "#ffffff"
+border = "#888888"
+
+[urgency_normal]
+background = "#444444"
+foreground = "#ffffff"
+border = "#888888"
+
+[urgency_critical]
+background = "#ff0000"
+foreground = "#ffffff"
+border = "#ff0000"

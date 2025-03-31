@@ -1,0 +1,13 @@
+2025-03-30 19:58:54.503 [info] Started local extension host with pid 2693.
+2025-03-30 19:58:57.134 [info] [perf] Render performance baseline is 27ms
+2025-03-30 19:58:57.844 [info] Settings Sync: Token updated for the account manudelp
+2025-03-30 19:58:57.846 [info] Settings Sync: Account status changed from uninitialized to available
+2025-03-30 19:58:57.869 [error] Canceled: Canceled
+    at C0 (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:7:1105)
+    at vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3246:38485
+    at Array.forEach (<anonymous>)
+    at rbt.dispose (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3246:38425)
+    at Lxe.dispose (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3246:50097)
+    at s3s.dispose (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3253:7459)
+    at i3s.stopAllInReverse (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3253:6761)
+    at async zdt.tb (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3252:16227)
