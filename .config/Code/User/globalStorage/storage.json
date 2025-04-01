@@ -6,56 +6,63 @@
         "workspaces": [],
         "folders": [
             {
-                "folderUri": "file:///home/manu/Repos/arch-config"
+                "folderUri": "file:///home/manu/Repos/dixital"
             }
         ],
-        "emptyWindows": []
+        "emptyWindows": [
+            {
+                "backupFolder": "1743461070090"
+            }
+        ]
     },
     "windowControlHeight": 35,
     "profileAssociations": {
         "workspaces": {
             "file:///home/manu/.config/waybar": "__default__profile__",
-            "file:///home/manu/Repos/arch-config": "__default__profile__"
+            "file:///home/manu/Repos/arch-config": "__default__profile__",
+            "file:///home/manu/Repos/dixital": "__default__profile__"
         },
-        "emptyWindows": {
-            "1743375533974": "__default__profile__"
-        }
+        "emptyWindows": {}
     },
     "windowsState": {
         "lastActiveWindow": {
-            "folder": "file:///home/manu/Repos/arch-config",
-            "backupPath": "/home/manu/.config/Code/Backups/42ec75e0136d1ef24f9a23831a554bcc",
+            "folder": "file:///home/manu/Repos/dixital",
+            "backupPath": "/home/manu/.config/Code/Backups/4c4a1f16969d47b639000b75f5a79dc9",
             "uiState": {
                 "mode": 1,
                 "x": 5,
                 "y": 35,
-                "width": 673,
+                "width": 893,
                 "height": 728
             }
         },
         "openedWindows": []
     },
     "theme": "vs-dark",
-    "themeBackground": "#282c34",
+    "themeBackground": "#292d3e",
     "windowSplash": {
         "zoomLevel": 0,
         "baseTheme": "vs-dark",
         "colorInfo": {
-            "foreground": "#cccccc",
-            "background": "#282c34",
-            "editorBackground": "#282c34",
-            "titleBarBackground": "#282c34",
-            "activityBarBackground": "#282c34",
-            "sideBarBackground": "#21252b",
-            "statusBarBackground": "#21252b",
-            "statusBarNoFolderBackground": "#21252b"
+            "foreground": "#ffffff",
+            "background": "#292d3e",
+            "editorBackground": "#292d3e",
+            "titleBarBackground": "#25293a",
+            "titleBarBorder": "#2c3041",
+            "activityBarBackground": "#242839",
+            "activityBarBorder": "#2e3243",
+            "sideBarBackground": "#25293a",
+            "sideBarBorder": "#2c2f40",
+            "statusBarBackground": "#25293a",
+            "statusBarBorder": "#2c3041",
+            "statusBarNoFolderBackground": "#292d3e"
         },
         "layoutInfo": {
             "sideBarSide": "left",
             "editorPartMinWidth": 220,
             "titleBarHeight": 35,
             "activityBarWidth": 48,
-            "sideBarWidth": 170,
+            "sideBarWidth": 257,
             "auxiliarySideBarWidth": 0,
             "statusBarHeight": 22,
             "windowBorder": false

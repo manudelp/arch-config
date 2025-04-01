@@ -1,0 +1,7 @@
+2025-03-31 20:08:03.682 [info] GitLens v17.0.0 activating in Visual Studio Code (1.98.2) on the desktop; language='en', logLevel='warn', defaultDateLocale='null' (c03dc2b23815cd90ebc30368d03326400fe8d0fc0943c5890b279de9f7ef9fbc|eccf0f86-bfab-482c-a031-56584c2d85cd1743462478361)
+To enable debug logging, set `"gitlens.outputLevel": "debug"` or run "GitLens: Enable Debug Logging" from the Command Palette
+
+2025-03-31 20:08:04.913 [info] [2025-03-31 23:08:04.912] [GIT   *1034ms] [/home/manu/Repos/dixital] git shortlog -s --all --no-merges --since=1.year.ago [*1034ms] (slow)
+[2025-03-31 23:08:04.913] [GIT   *1071ms] [/home/manu/Repos/dixital] git ls-files -- src/pages/index.astro [*1071ms] (slow)
+[2025-03-31 23:08:04.913] [GIT   *1088ms] [/home/manu/Repos/dixital] git rev-list --max-parents=0 HEAD -- [*1088ms] (slow)
+

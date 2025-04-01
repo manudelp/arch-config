@@ -1,0 +1,354 @@
+2025-03-31 19:32:58.014 [warning] [certificates] Failed to parse certificate # ACCVRAIZ1
+ Error: error:0900006e:PEM routines:OPENSSL_internal:NO_START_LINE
+    at new X509Certificate (node:internal/crypto/x509:119:21)
+    at /home/manu/.vscode/extensions/github.copilot-1.293.0/lib/src/network/certificateReaders.ts:79:36
+    at Array.filter (<anonymous>)
+    at Rae.removeExpiredCertificates (/home/manu/.vscode/extensions/github.copilot-1.293.0/lib/src/network/certificateReaders.ts:77:32)
+    at Rae.getAllRootCAs (/home/manu/.vscode/extensions/github.copilot-1.293.0/lib/src/network/certificateReaders.ts:68:38)
+    at fz.createSecureContext (/home/manu/.vscode/extensions/github.copilot-1.293.0/lib/src/network/certificates.ts:47:23) {
+  opensslErrorStack: [
+    'error:0c00006d:ASN.1 encoding routines:OPENSSL_internal:DECODE_ERROR'
+  ],
+  library: 'PEM routines',
+  function: 'OPENSSL_internal',
+  reason: 'NO_START_LINE',
+  code: 'ERR_OSSL_PEM_NO_START_LINE'
+}
+2025-03-31 19:32:58.014 [warning] [certificates] Failed to parse certificate # ACCVRAIZ1
+ Error: error:0900006e:PEM routines:OPENSSL_internal:NO_START_LINE
+    at new X509Certificate (node:internal/crypto/x509:119:21)
+    at /home/manu/.vscode/extensions/github.copilot-1.293.0/lib/src/network/certificateReaders.ts:79:36
+    at Array.filter (<anonymous>)
+    at Rae.removeExpiredCertificates (/home/manu/.vscode/extensions/github.copilot-1.293.0/lib/src/network/certificateReaders.ts:77:32)
+    at Rae.getAllRootCAs (/home/manu/.vscode/extensions/github.copilot-1.293.0/lib/src/network/certificateReaders.ts:68:38)
+    at fz.createSecureContext (/home/manu/.vscode/extensions/github.copilot-1.293.0/lib/src/network/certificates.ts:47:23) {
+  opensslErrorStack: [
+    'error:0c00006d:ASN.1 encoding routines:OPENSSL_internal:DECODE_ERROR'
+  ],
+  library: 'PEM routines',
+  function: 'OPENSSL_internal',
+  reason: 'NO_START_LINE',
+  code: 'ERR_OSSL_PEM_NO_START_LINE'
+}
+2025-03-31 19:32:58.014 [info] [certificates] Removed 2 expired certificates
+2025-03-31 19:32:58.932 [info] [fetcher] Using Helix fetcher.
+2025-03-31 19:32:58.932 [info] [code-referencing] Public code references are enabled.
+2025-03-31 19:32:59.862 [info] [fetcher] Using Helix fetcher.
+2025-03-31 19:33:02.948 [info] [fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions] took 1376.432119 ms
+2025-03-31 19:33:02.957 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-03-31 19:33:02.958 [info] [streamChoices] request done: headerRequestId: [341242a0-e711-43bc-bd46-89d4b358319b] model deployment ID: []
+2025-03-31 19:35:00.253 [info] [fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions] took 1205.5970970000053 ms
+2025-03-31 19:35:01.436 [info] [streamChoices] solution 1 returned. finish reason: [stop]
+2025-03-31 19:35:01.437 [info] [solutions] Open Copilot completion: [,
+    "tooltip-format-home": "Home: {home_percentage_used}% used",
+    "tooltip-format-root": "Root: {percentage_used}% used",
+    "disk-usage": {
+      "/": {
+        "path": "/",
+        "icon": ""
+      },
+      "/home": {
+        "path": "/home",
+        "icon": ""
+      }
+    },
+    "format-icons": [
+      "󰋻",
+      "󰋼",
+      "󰋽",
+      "󰋾"
+    ],
+    "interval": 30]
+2025-03-31 19:35:01.923 [info] [streamChoices] solution 3 returned. finish reason: [stop]
+2025-03-31 19:35:01.923 [info] [solutions] Open Copilot completion: [,
+    "tooltip-format-root": "Root: {percentage_used}% used",
+    "tooltip-format-home": "Home: {home_percentage_used}% used",
+    "format-icons": [
+      "<span color='#69ff94'>▁</span>",
+      "<span color='#2aa9ff'>▂</span>",
+      "<span color='#f8f8f2'>▃</span>",
+      "<span color='#f8f8f2'>▄</span>",
+      "<span color='#ffffa5'>▅</span>",
+      "<span color='#ffffa5'>▆</span>",
+      "<span color='#ff9977'>▇</span>",
+      "<span color='#dd532e'>█</span>"
+    ]]
+2025-03-31 19:35:03.421 [info] [streamChoices] solution 9 returned. finish reason: [stop]
+2025-03-31 19:35:03.421 [info] [solutions] Open Copilot completion: [,
+    "tooltip-format-home": "Home: {home_percentage_used}% used",
+    "tooltip-format-root": "Root: {percentage_used}% used",
+    "interval": 30,
+    "disk": {
+      "/": {
+        "mountpoint": "/",
+        "icon": "󰊈"
+      },
+      "/home": {
+        "mountpoint": "/home",
+        "icon": "󰉁"
+      }]
+2025-03-31 19:35:03.423 [info] [streamChoices] solution 5 returned. finish reason: [stop]
+2025-03-31 19:35:03.423 [info] [solutions] Open Copilot completion: [,
+    "format-icons": [
+      "<span color='#69ff94'>▁</span>",
+      "<span color='#2aa9ff'>▂</span>",
+      "<span color='#f8f8f2'>▃</span>",
+      "<span color='#f8f8f2'>▄</span>",
+      "<span color='#ffffa5'>▅</span>",
+      "<span color='#ffffa5'>▆</span>",
+      "<span color='#ff9977'>▇</span>",
+      "<span color='#dd532e'>█</span>"
+    ],
+    "interval": 60,
+    "mountpoints": {
+      "/": {
+        "format": "{percentage_used}%"
+      },
+      "/home": {
+        "format": "{home_percentage_used}%"
+      }]
+2025-03-31 19:35:03.760 [info] [streamChoices] solution 7 returned. finish reason: [stop]
+2025-03-31 19:35:03.761 [info] [solutions] Open Copilot completion: [,
+    "tooltip-format-root": "Root: {percentage_used}% used",
+    "tooltip-format-home": "Home: {home_percentage_used}% used",
+    "format-icons": {
+      "root": [
+        "󰌔",
+        "󰌕",
+        "󰌖",
+        "󰌗"
+      ],
+      "home": [
+        "󰌔",
+        "󰌕",
+        "󰌖",
+        "󰌗"
+      ]
+    },
+    "interval": 60,
+    "mountpoints": {
+      "/": {
+        "format-icons-root": [
+          "<span color='#ff6699'>󰋻</span>",
+          "<span color='#ffcc66'>󰋼</span>",
+          "<span color='#ffffa5'>󰋽</span>",
+          "<span color='#2aa9ff'>󰋾</span>"
+        ]
+      },
+      "/home": {
+        "format-icons-home": [
+          "<span color='#ff6699'>󰋻</span>",
+          "<span color='#ffcc66'>󰋼</span>",
+          "<span color='#ffffa5'>󰋽</span>",
+          "<span color='#2aa9ff'>󰋾</span>"
+        ]
+      }]
+2025-03-31 19:35:03.765 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-03-31 19:35:03.766 [info] [solutions] Open Copilot completion: [,
+    "tooltip-format-unknown": "Root: Unknown\nHome: Unknown",
+    "tooltip-format-root": "Root: {percentage_used}% used",
+    "tooltip-format-home": "Home: {home_percentage_used}% used",
+    "interval": 30,
+    "mountpoints": {
+      "/": {
+        "icon": "󰍛"
+      },
+      "/home": {
+        "icon": "󰍛"
+      }]
+2025-03-31 19:35:04.143 [info] [streamChoices] solution 2 returned. finish reason: [stop]
+2025-03-31 19:35:04.144 [info] [solutions] Open Copilot completion: [,
+    "tooltip-format-root": "Root: {percentage_used}% used",
+    "tooltip-format-home": "Home: {home_percentage_used}% used",
+    "tooltip": true,
+    "interval": 5,
+    "format-icons": {
+      "root": [
+        "<span color='#ff6699'>▁</span>",
+        "<span color='#ffffa5'>▂</span>",
+        "<span color='#ff9977'>▃</span>",
+        "<span color='#dd532e'>▄</span>"
+      ],
+      "home": [
+        "<span color='#ff6699'>▁</span>",
+        "<span color='#ffffa5'>▂</span>",
+        "<span color='#ff9977'>▃</span>",
+        "<span color='#dd532e'>▄</span>"
+      ]]
+2025-03-31 19:35:04.148 [info] [streamChoices] solution 6 returned. finish reason: [stop]
+2025-03-31 19:35:04.149 [info] [solutions] Open Copilot completion: [,
+    "tooltip-format-2": "<tt><small>{device}</small></tt>\n{percentage_used}% used\n{home_percentage_used}% used\n{home_total}G total\n{home_used}G used",
+    "tooltip-format-3": "<tt><small>{device}</small></tt>\n{percentage_used}% used\n{home_percentage_used}% used\n{home_total}G total\n{home_used}G used",
+    "interval": 30,
+    "disk": {
+      "root": "/",
+      "home": "/home"]
+2025-03-31 19:35:04.493 [info] [streamChoices] solution 4 returned. finish reason: [stop]
+2025-03-31 19:35:04.494 [info] [solutions] Open Copilot completion: [,
+    "tooltip-format-home": "{home_percentage_used}% used",
+    "tooltip-format-root": "{percentage_used}% used",
+    "interval": 60,
+    "format-icons": {
+      "root": [
+        "󰋻",
+        "󰋴"
+      ],
+      "home": [
+        "󰋻",
+        "󰋴"
+      ]]
+2025-03-31 19:35:04.855 [info] [streamChoices] solution 8 returned. finish reason: [stop]
+2025-03-31 19:35:04.856 [info] [solutions] Open Copilot completion: [,
+    "tooltip-format-root": "Root: {percentage_used}% used\nHome: {home_percentage_used}% used",
+    "tooltip-format-home": "Home: {home_percentage_used}% used",
+    "format-icons": {
+      "root": [
+        "󰋋",
+        "󰋍",
+        "󰋏"
+      ],
+      "home": [
+        "󰋌",
+        "󰋎",
+        "󰋏"
+      ]]
+2025-03-31 19:35:04.857 [info] [streamChoices] request done: headerRequestId: [390abf3e-6d43-4667-997c-10f86b18470b] model deployment ID: []
+2025-03-31 19:36:11.796 [info] [fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions] took 436.3941010000126 ms
+2025-03-31 19:36:11.800 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-03-31 19:36:11.808 [info] [streamChoices] request done: headerRequestId: [cb75c027-0fe1-4fea-b2ff-3c4740a5a6a3] model deployment ID: []
+2025-03-31 19:36:12.988 [info] [fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions] took 1002.9707490000001 ms
+2025-03-31 19:36:12.990 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-03-31 19:36:12.991 [info] [streamChoices] request done: headerRequestId: [e1213f00-8504-4356-8567-28f155b9551e] model deployment ID: []
+2025-03-31 19:37:21.321 [info] [fetchCompletions] request.response: [https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions] took 1171.5485500000068 ms
+2025-03-31 19:37:22.875 [info] [streamChoices] solution 9 returned. finish reason: [stop]
+2025-03-31 19:37:22.876 [info] [solutions] Open Copilot completion: [,
+    "tooltip-format-mount": "{mount}: {percentage_used}% used ({free} free out of {total})",
+    "tooltip-format-home": "Home: {home_percentage_used}% used ({home_free} free out of {home_total})",
+    "format-icons": [
+      "󰋻",
+      "󰋼",
+      "󰋽",
+      "󰋾"
+    ],
+    "interval": 30]
+2025-03-31 19:37:22.881 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-03-31 19:37:22.882 [info] [solutions] Open Copilot completion: [,
+    "tooltip-format-home": "Root: {percentage_used}% used ({free} free out of {total})\nHome: {home_percentage_used}% used ({home_free} free out of {home_total})",
+    "interval": 30,
+    "disk": {
+      "root": "/",
+      "home": "/home"
+    },
+    "format-icons": [
+      "󰍃",
+      "󰍁"
+    ],
+    "format-percentage": "{percentage_used}%"]
+2025-03-31 19:37:23.367 [info] [streamChoices] solution 2 returned. finish reason: [stop]
+2025-03-31 19:37:23.368 [info] [solutions] Open Copilot completion: [,
+    "tooltip-format-root": "Root: {percentage_used}% used ({free} free out of {total})",
+    "tooltip-format-home": "Home: {home_percentage_used}% used ({home_free} free out of {home_total})",
+    "tooltip": true,
+    "interval": 5,
+    "disk": "/",
+    "home-disk": "/home",
+    "format-icons": [
+      "󰍽",
+      "󰍽",
+      "󰍽"
+    ]]
+2025-03-31 19:37:23.372 [info] [streamChoices] solution 5 returned. finish reason: [stop]
+2025-03-31 19:37:23.372 [info] [solutions] Open Copilot completion: [,
+    "tooltip-format-root": "Root: {percentage_used}% used ({free} free out of {total})",
+    "tooltip-format-home": "Home: {home_percentage_used}% used ({home_free} free out of {home_total})",
+    "tooltip-format-boot": "Boot: {boot_percentage_used}% used ({boot_free} free out of {boot_total})",
+    "tooltip-format-var": "Var: {var_percentage_used}% used ({var_free} free out of {var_total})",
+    "tooltip-format-swap": "Swap: {swap_percentage_used}% used ({swap_free} free out of {swap_total})"]
+2025-03-31 19:37:23.734 [info] [streamChoices] solution 8 returned. finish reason: [stop]
+2025-03-31 19:37:23.736 [info] [solutions] Open Copilot completion: [,
+    "format-icons": [
+      "󰋊",
+      "󰋋",
+      "󰋍",
+      "󰋏"
+    ],
+    "tooltip": true,
+    "interval": 60,
+    "format-critical": "{percentage_used}%  CRITICAL",
+    "states": {
+      "warning": 75,
+      "critical": 90
+    }]
+2025-03-31 19:37:23.740 [info] [streamChoices] solution 7 returned. finish reason: [stop]
+2025-03-31 19:37:23.741 [info] [solutions] Open Copilot completion: [,
+    "tooltip-format-home": "Home: {home_percentage_used}% used ({home_free} free out of {home_total})",
+    "interval": 5,
+    "devices": [
+      {
+        "name": "/dev/sda1",
+        "type": "root",
+        "mountpoint": "/"
+      },
+      {
+        "name": "/dev/sda2",
+        "type": "home",
+        "mountpoint": "/home"
+      }
+    ]]
+2025-03-31 19:37:24.017 [info] [streamChoices] solution 1 returned. finish reason: [stop]
+2025-03-31 19:37:24.019 [info] [solutions] Open Copilot completion: [,
+    "tooltip-format-root": "Root: {percentage_used}% used ({free} free out of {total})\nHome: {home_percentage_used}% used ({home_free} free out of {home_total})",
+    "tooltip-format-home": "Home: {home_percentage_used}% used ({home_free} free out of {home_total})",
+    "interval": 30,
+    "format-icons": [
+      "󰋊",
+      "󰋈"
+    ]]
+2025-03-31 19:37:24.020 [info] [streamChoices] solution 3 returned. finish reason: [stop]
+2025-03-31 19:37:24.020 [info] [solutions] Open Copilot completion: [,
+    "tooltip-format-root": "Root: {percentage_used}% used ({free} free out of {total})",
+    "tooltip-format-home": "Home: {home_percentage_used}% used ({home_free} free out of {home_total})",
+    "interval": 30,
+    "format-icons": [
+      "󰣕",
+      "󰣖",
+      "󰣗",
+      "󰣘"
+    ]]
+2025-03-31 19:37:24.311 [info] [streamChoices] solution 6 returned. finish reason: [stop]
+2025-03-31 19:37:24.312 [info] [solutions] Open Copilot completion: [,
+    "tooltip-format-root": "Root: {percentage_used}% used ({free} free out of {total})",
+    "tooltip-format-home": "Home: {home_percentage_used}% used ({home_free} free out of {home_total})",
+    "interval": 60,
+    "ignore-disks": [
+      "/dev/nvme0n1p1"
+    ],
+    "disks": {
+      "/dev/nvme0n1p2": {
+        "label": "/",
+        "icon": "󰍛"
+      },
+      "/dev/nvme0n1p3": {
+        "label": "/home",
+        "icon": "󰍛"
+      }
+    },
+    "format-icons": [
+      "󰍛",
+      "󰍠"
+    ]]
+2025-03-31 19:37:24.592 [info] [streamChoices] solution 4 returned. finish reason: [stop]
+2025-03-31 19:37:24.593 [info] [solutions] Open Copilot completion: [,
+    "tooltip": true,
+    "interval": 1800,
+    "format-icons": [
+      "<span color='#ff69b4'>▁</span>",
+      "<span color='#2aa9ff'>▂</span>",
+      "<span color='#f8f8f2'>▃</span>",
+      "<span color='#f8f8f2'>▄</span>",
+      "<span color='#ffffa5'>▅</span>",
+      "<span color='#ffffa5'>▆</span>",
+      "<span color='#ff9977'>▇</span>",
+      "<span color='#dd532e'>█</span>"
+    ]]
+2025-03-31 19:37:24.594 [info] [streamChoices] request done: headerRequestId: [08708a25-57c2-4921-989c-ccf28cf3acbf] model deployment ID: []

@@ -1,0 +1,36 @@
+2025-03-31 19:32:57.080 [info] Using the Electron fetcher.
+2025-03-31 19:32:57.080 [info] Initializing Git extension service.
+2025-03-31 19:32:57.080 [info] Successfully activated the vscode.git extension.
+2025-03-31 19:32:57.080 [info] Enablement state of the vscode.git extension: true.
+2025-03-31 19:32:57.080 [info] Successfully registered Git commit message provider.
+2025-03-31 19:32:58.318 [info] Logged in as manudelp
+2025-03-31 19:32:59.471 [info] Got Copilot token for manudelp
+2025-03-31 19:32:59.511 [info] copilot token chat_enabled: true, sku: free_educational
+2025-03-31 19:32:59.511 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-03-31 19:32:59.516 [info] Registering default platform agent...
+2025-03-31 19:33:00.337 [info] Fetched model metadata in 859ms b269d97b-f47e-487c-accd-80a6696daeb8
+2025-03-31 19:33:00.542 [info] activationBlocker from 'languageModelAccess' took for 1698ms
+2025-03-31 19:34:27.121 [info] message 0 returned. finish reason: [stop]
+2025-03-31 19:34:27.124 [info] request done: requestId: [9164673d-5f10-40f0-9f42-c94b09ea4fd6] model deployment ID: []
+2025-03-31 19:34:28.592 [info] message 0 returned. finish reason: [stop]
+2025-03-31 19:34:28.593 [info] request done: requestId: [9ee3ad02-9e8f-4a97-99a6-cac28fbd120e] model deployment ID: []
+2025-03-31 19:34:51.322 [info] message 0 returned. finish reason: [stop]
+2025-03-31 19:34:51.324 [info] request done: requestId: [57b101f6-0afb-4a76-aaec-c2dce64bf6a6] model deployment ID: []
+2025-03-31 19:34:52.591 [info] message 0 returned. finish reason: [stop]
+2025-03-31 19:34:52.592 [info] request done: requestId: [d566f308-57e3-4899-9149-eac4a77f19c3] model deployment ID: []
+2025-03-31 19:36:23.477 [info] message 0 returned. finish reason: [stop]
+2025-03-31 19:36:23.478 [info] request done: requestId: [9adfc8f4-99e5-4017-b441-b5d37eb59631] model deployment ID: []
+2025-03-31 19:36:29.320 [info] message 0 returned. finish reason: [stop]
+2025-03-31 19:36:29.321 [info] request done: requestId: [3c3bd783-c3a2-442f-99a4-e99cc88af09f] model deployment ID: []
+2025-03-31 19:36:35.244 [info] message 0 returned. finish reason: [stop]
+2025-03-31 19:36:35.245 [info] request done: requestId: [663ee4ca-b060-4c89-aee8-3cf29ac48ea9] model deployment ID: []
+2025-03-31 19:36:36.648 [info] message 0 returned. finish reason: [stop]
+2025-03-31 19:36:36.648 [info] request done: requestId: [14a4ee4b-29f5-4e46-9169-f010cc2b9712] model deployment ID: []
+2025-03-31 19:37:51.409 [info] message 0 returned. finish reason: [stop]
+2025-03-31 19:37:51.409 [info] request done: requestId: [4f222e0c-de5f-4557-b7d2-ecf4765de628] model deployment ID: []
+2025-03-31 19:37:53.611 [info] message 0 returned. finish reason: [stop]
+2025-03-31 19:37:53.611 [info] request done: requestId: [96115996-9af7-48d7-9d8d-310058a52ecd] model deployment ID: []
+2025-03-31 19:38:06.157 [info] message 0 returned. finish reason: [stop]
+2025-03-31 19:38:06.157 [info] request done: requestId: [1a354f15-83b7-4068-84c1-5e8d2a855082] model deployment ID: []
+2025-03-31 19:38:08.204 [info] message 0 returned. finish reason: [stop]
+2025-03-31 19:38:08.205 [info] request done: requestId: [cfcad26c-eb92-4c6c-8d03-f19c0c26aeb1] model deployment ID: []

@@ -1,0 +1,8 @@
+2025-03-31 20:07:58.016 [info] update#setState idle
+2025-03-31 20:08:08.864 [error] [UtilityProcess id: 2, type: fileWatcher, pid: 33253]: crashed with code 15 and reason 'killed'
+2025-03-31 20:08:08.965 [info] Extension host with pid 33241 exited with code: 0, signal: unknown.
+2025-03-31 20:08:27.984 [info] update#setState checking for updates
+2025-03-31 20:08:28.222 [info] update#setState idle
+2025-04-01 08:55:42.623 [warning] No ptyHost heartbeat after 6 seconds
+2025-04-01 08:56:22.560 [info] Extension host with pid 33260 exited with code: 0, signal: unknown.
+2025-04-01 08:56:22.634 [error] [UtilityProcess id: 1, type: fileWatcher, pid: 33254]: crashed with code 15 and reason 'killed'

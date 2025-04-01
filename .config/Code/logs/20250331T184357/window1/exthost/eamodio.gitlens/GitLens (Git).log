@@ -1,0 +1,14 @@
+2025-03-31 18:44:08.806 [info] [2025-03-31 21:44:08.791] [        129ms] [/home/manu/.config/hypr] git rev-parse --show-toplevel • FAILED
+2025-03-31 18:44:08.806 [info] 
+Error: Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel
+fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+
+
+2025-03-31 18:46:14.532 [info] [2025-03-31 21:46:14.532] [         19ms] [/home/manu/.config/hypr] git rev-parse --show-toplevel • FAILED
+2025-03-31 18:46:14.532 [info] 
+Error: Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel
+fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+
+

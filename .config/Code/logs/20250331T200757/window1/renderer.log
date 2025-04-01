@@ -1,0 +1,6 @@
+2025-03-31 20:07:58.840 [info] Started local extension host with pid 33260.
+2025-03-31 20:08:00.461 [info] Settings Sync: Token updated for the account manudelp
+2025-03-31 20:08:00.461 [info] Settings Sync: Account status changed from uninitialized to available
+2025-03-31 20:08:01.506 [info] [perf] Render performance baseline is 45ms
+2025-03-31 20:08:03.895 [info] Settings Sync: Token updated for the account manudelp
+2025-04-01 08:56:03.680 [error] [Extension Host] GET /repos/manudelp/dixital - 404 with id 9F26:93A76:957D6:CBE2F:67EBD452 in 404ms

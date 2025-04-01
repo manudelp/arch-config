@@ -1,0 +1,34 @@
+SyntaxError: Unexpected character '│'. (2:1)
+  1 |
+> 2 | │ import './src/styles/global.css'  │
+    | ^
+  3 |
+    at vr (file:///home/manu/.vscode/extensions/astro-build.astro-vscode-2.15.4-linux-x64/node_modules/prettier/plugins/babel.mjs:14:15466)
+    at Lr (file:///home/manu/.vscode/extensions/astro-build.astro-vscode-2.15.4-linux-x64/node_modules/prettier/plugins/babel.mjs:14:15792)
+    at Object.parse (file:///home/manu/.vscode/extensions/astro-build.astro-vscode-2.15.4-linux-x64/node_modules/prettier/plugins/babel.mjs:15:2876)
+    at parse4 (file:///home/manu/.vscode/extensions/astro-build.astro-vscode-2.15.4-linux-x64/node_modules/prettier/index.mjs:20685:24)
+    at async textToDoc (file:///home/manu/.vscode/extensions/astro-build.astro-vscode-2.15.4-linux-x64/node_modules/prettier/index.mjs:20792:19)
+    at async wrapParserTryCatch (file:///home/manu/.vscode/extensions/astro-build.astro-vscode-2.15.4-linux-x64/node_modules/prettier-plugin-astro/dist/index.js:667:16)
+    at async embed (file:///home/manu/.vscode/extensions/astro-build.astro-vscode-2.15.4-linux-x64/node_modules/prettier-plugin-astro/dist/index.js:622:40)
+    at async printEmbeddedLanguages (file:///home/manu/.vscode/extensions/astro-build.astro-vscode-2.15.4-linux-x64/node_modules/prettier/index.mjs:20736:20)
+    at async printAstToDoc (file:///home/manu/.vscode/extensions/astro-build.astro-vscode-2.15.4-linux-x64/node_modules/prettier/index.mjs:20825:3)
+    at async coreFormat (file:///home/manu/.vscode/extensions/astro-build.astro-vscode-2.15.4-linux-x64/node_modules/prettier/index.mjs:21150:14) {
+  loc: { start: { line: 2, column: 1 } },
+  cause: SyntaxError: Unexpected character '│'. (2:0)
+      at s (file:///home/manu/.vscode/extensions/astro-build.astro-vscode-2.15.4-linux-x64/node_modules/prettier/plugins/babel.mjs:3:11484)
+      at De.raise (file:///home/manu/.vscode/extensions/astro-build.astro-vscode-2.15.4-linux-x64/node_modules/prettier/plugins/babel.mjs:5:19329)
+      at De.getTokenFromCode (file:///home/manu/.vscode/extensions/astro-build.astro-vscode-2.15.4-linux-x64/node_modules/prettier/plugins/babel.mjs:5:14083)
+      at De.getTokenFromCode (file:///home/manu/.vscode/extensions/astro-build.astro-vscode-2.15.4-linux-x64/node_modules/prettier/plugins/babel.mjs:7:5830)
+      at De.getTokenFromCode (file:///home/manu/.vscode/extensions/astro-build.astro-vscode-2.15.4-linux-x64/node_modules/prettier/plugins/babel.mjs:7:66630)
+      at De.nextToken (file:///home/manu/.vscode/extensions/astro-build.astro-vscode-2.15.4-linux-x64/node_modules/prettier/plugins/babel.mjs:5:5128)
+      at De.parse (file:///home/manu/.vscode/extensions/astro-build.astro-vscode-2.15.4-linux-x64/node_modules/prettier/plugins/babel.mjs:8:51455)
+      at De.parse (file:///home/manu/.vscode/extensions/astro-build.astro-vscode-2.15.4-linux-x64/node_modules/prettier/plugins/babel.mjs:7:69219)
+      at lr (file:///home/manu/.vscode/extensions/astro-build.astro-vscode-2.15.4-linux-x64/node_modules/prettier/plugins/babel.mjs:8:52101)
+      at Wr (file:///home/manu/.vscode/extensions/astro-build.astro-vscode-2.15.4-linux-x64/node_modules/prettier/plugins/babel.mjs:15:2319) {
+    code: 'BABEL_PARSER_SYNTAX_ERROR',
+    reasonCode: 'InvalidOrUnexpectedToken',
+    loc: F { line: 2, column: 0, index: 1 },
+    pos: 1
+  },
+  codeFrame: "  1 |\n> 2 | │ import './src/styles/global.css'  │\n    | ^\n  3 |"
+}
